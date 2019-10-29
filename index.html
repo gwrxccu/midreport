@@ -7,18 +7,24 @@
 
 
   <a-assets>
-    <img id="my-image" src="image.png">
+    <img id="my-image" src="image.PNG">
   <img id="topic" src="01.png">
   <img id="intro" src="02.png">
   <img id="street" src="street.jpg">
+  <img id="street02" src="street02.jpg">
   <img id="square" src="square.jpg">
+
+  <img id="bg" src="bg.jpg">
   </a-assets>
 
  <a-image src="#topic" position="-3 2 -4" width="4" height="3" rotation="-0.1 0 5.6"></a-image>
 <a-image src="#intro" position="3 2 -7" width="4" height="3" rotation="-0.1 0 -5.6"></a-image>
        
- <a-plane position="0 0 -14"  width="14" height="10" src="#street"></a-plane>
-<a-sky  color="#ffff00"></a-sky>
+
+
+<a-box position="6 0 -4"   depth="2" height="4" width="2.5" src="#street02"></a-box>
+ <a-plane position="0 0 -44"  width="14" height="10" src="#street" rotation="-0.1 2 0.6"></a-plane>
+<a-sky  src="#bg"></a-sky>
     </a-scene>
   </body>
 </html>
