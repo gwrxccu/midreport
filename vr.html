@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+
+
+  <a-assets>
+    <img id="my-image" src="image.png">
+  </a-assets>
+
+      <a-box position="-1 0.5 -3" rotation="0 45 0" src="#my-image"></a-box>
+      <a-sphere position="0 1.25 -5" radius="1.25"  src="#my-image"></a-sphere>
+      <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5"  src="#my-image"></a-cylinder>
+      <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4"  src="#my-image"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+</html>
